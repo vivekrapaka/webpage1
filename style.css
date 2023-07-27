@@ -37,6 +37,10 @@ nav{
  .nav-log{
     display: block;
  }
+.brand-img img{
+    height: 100px;
+    width:100px;
+ }
  .search-bar input {
     padding: 8px 12px;
     font-size: 16px;
