@@ -1,0 +1,104 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(/3333.avif);
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+ }
+ .nav-links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font: bolder;
+    display: flex;
+    justify-content: center;
+ }
+ nav  .nav-itmes{
+    flex: 1;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    font: bolder;
+    list-style-type: none;
+    margin-right: 150px;
+ }
+ .brand-img{
+    margin-left: auto;
+    flex: .5;
+ }
+ .nav-log{
+    display: block;
+ }
+ .search-bar input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  .search-container{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img {
+    width: 25px;
+    height: 25px;
+    justify-content: space-between;
+    margin-right: 1px;
+  }
+  .head{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    text-justify:kashida;
+  }
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font:bold;
+    font-size: 50px;
+    margin-top: 90px;
+    color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 50px;
+    justify-content: center;
+    
+}
+p{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(232, 238, 240);
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+.buttonns button{
+    padding: 10px 30px;
+    background-color: orangered;
+    color: #ccc;
+    border-radius: 10px;
+
+}
+.button2 button{
+    margin-top: 110px;
+    border-radius: 10px;
+    background-color: blue;    
+    padding: 10px 30px;
+    color: #ccc;
+}
